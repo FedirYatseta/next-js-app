@@ -1,15 +1,9 @@
 'use client'
 import { getPosts } from '@/api/getPosts'
 import PostSearch from '@/components/PostSearch'
-import { Metadata } from 'next'
 import Link from 'next/link'
 import React from 'react'
 import useSWR from 'swr'
-
-export const metadata: Metadata = {
-    title: 'Blog | NEXT.JS',
-
-}
 
 const Blog = () => {
 
