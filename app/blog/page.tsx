@@ -1,5 +1,5 @@
 'use client'
-import { getPosts } from '@/api/getPosts'
+import { getPosts } from '@/services/getPosts'
 import PostSearch from '@/components/PostSearch'
 import Link from 'next/link'
 import React from 'react'

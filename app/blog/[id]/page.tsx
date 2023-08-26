@@ -1,4 +1,4 @@
-import { getPostId } from '@/api/getPosts'
+import { getPostId } from '@/services/getPosts'
 import { Metadata } from 'next'
 import React from 'react'
 

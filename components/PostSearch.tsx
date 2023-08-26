@@ -1,5 +1,5 @@
 'use client'
-import { getPostIBySearch } from '@/api/getPosts';
+import { getPostIBySearch } from '@/services/getPosts';
 import React, { FormEventHandler, useState } from 'react'
 import useSWR from 'swr'
 
